@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+<head class="cabecera">
+    <!-- Detalles -->
+    <meta  charset="UTF-8" />
+    <title>Xenon web site </title>
+    <link rel="stylesheet" href="/cabecera.css">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/4/41/Osu_new_logo.png" />
+    <link rel="stylesheet" href="/stylerepos.css">
+ 
+</head>
+
+<body>
+
+		<nav>
+			<ul id="apartados">
+                <li style="margin-left: 100px;"><a href="whoisxenon.html">Who I am?</a></li> <li class="titulo">Xenon web site</li>
+				
+				<li><a href="/repositorio.html">Repositorio</a></li>
+                <li><a href="#">xd</a></li>
+
+			</ul>
+		</nav>
+
+
+<br>
+<h1 style="margin-left: 15px;">Repositorio de aplicaciones &nbsp;&nbsp; ((ヾ(≧皿≦；)ノ＿))</h1>
+<br>
+
+    <link rel="javascript" href="publicacionesrepos.js">
+    <script>
+        class archivo{
+            constructor(nombre, version, autor, descripcion,plataforma, link){
+                this.nombre = nombre;
+                this.version = version;
+                this.autor = autor;
+                this.descripcion = descripcion;
+                this.plataforma = plataforma;
+                this.link = link;
+                //informacion resumida:
+                this.informacion = `<p class=informacion-text>${this.nombre}, versión ${this.version} <br>Powered by: ${this.autor}<br>
+                Descripción: ${this.descripcion}. <br><br>Link de descarga: <a href="${this.link}">Descargar para ${plataforma}</a></p>`
+            }
+            mostrar(){
+                document.write('<h2>' + this.nombre + '</h2>' + this.informacion + '<br>');
+            }
+        }
+        
+        //ARCHIVOS  
+            const calculadora = new archivo("Calculadora graciosa",
+            "1.0",
+            "xenon.software, apk dev && cpsoftware, roblox.exe remote quit",
+            'calculadora funcional con secretos, hacer logaritmos ("log") provocará que roblox.exe se cierre si tienes el script de python necesario',
+            "android",
+            "https://github.com/xenonxss/repositorioapps/raw/main/app-debug.apk");
+            
+            const jagger = new archivo("Jagger script",
+            "1.0",
+            "xenon.software",
+            "Bomba jagger con temporizador para trollear facilmente",
+            "windows",
+            "https://github.com/xenonxss/repositorioapps/raw/main/jaggerbomba.exe");
+
+            
+        //ARCHIVOS
+      
+    </script>
+
+
+<script>
+    calculadora.mostrar();
+    jagger.mostrar();
+    radar.mostrar();
+</script>
+
+</body>
+</html>
