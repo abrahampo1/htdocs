@@ -1,25 +1,15 @@
 
-		nav ul li {
-			display: inline-block;
-			line-height: 80px;
-		}
 			.titulo{
-                margin-left: 30px;
+                text-align: center;
                 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                 color: white;
                 font-size: 100px;
             }
-			nav ul li a{
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                color: rgb(255, 255, 255);
-                font-size: large;
-				
-                margin-top: 20px;
-				padding: 0 14px;
-				text-decoration: none;
+			.apartados a{
+                height: 100px;
                 
 			}
-				nav ul li a:hover {
-					background: rgba(255, 255, 255, 0.048);
+			    .apartados:hover {
+					background: rgb(255, 8, 8);
                     
 				}
