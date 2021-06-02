@@ -1,95 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
- 
-<head>
-    <!-- Detalles -->
-    <meta  charset="UTF-8" />
-    <title>Xenon web site </title>
-    <link rel="stylesheet" href="/cabecera.css">
-    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/4/41/Osu_new_logo.png" />
-    <link rel="stylesheet" href="/stylerepos.css">
-</head>
+    <head>
+        <!-- Detalles -->
+        <meta charset="UTF-8" />
+        <title>Xenon web repositorio</title>
+        <link rel="stylesheet" href="/cabecera.css" />
+        <link rel="shortcut icon" href="https://lh3.googleusercontent.com/proxy/x3-0INSRlQ89U4YbsIrgfKJuuytCoZ9GQ1rmxo5Z-znXbuRRXZtgcaE-7IWAh0d-jujGz4JYnWtpbhlnmI8aez8D0PNPamqudHZVMaYE_KD2M72Y6A" />
+        <link rel="stylesheet" href="/stylerepos.css" />
+    </head>
 
-<body>
-      
-<!--CABECERA-->
-<h1 class="titulo">Xenon web site</h1>
+    <body>
+        <!--CABECERA-->
+        <h1 class="titulo">Xenon web site</h1>
 
-<div class="apartados">
-    <a href="index.html">Who I am?</a>
-    <a href="/repositorio.html">Repositorio</a>
-    <a href="#">Aplicaciones web</a>
-   
-    
-</div>
-    <br><br>
-<hr class="barraseparadora" size="1px" color="black" />
+        <div class="apartados">
+            <a href="index.html">Who I am?</a>
+            <a href="/repositorio.html">Repositorio</a>
+            <a href="/mantenimiento.html">Aplicaciones web</a>
+            <a href="#">Idle</a>
+            <a href="#">Idle</a>
+            <a href="#">Idle</a>
+            <a href="#">Idle</a>
+            <a href="#">Idle</a>
+            <a href="#">Idle</a>
+        </div>
+        <br />
+        <br />
+        <hr class="barraseparadora" size="1px" color="black" />
 
-<!--CABECERA-->
+        <!--CABECERA-->
 
-    
-	
+        <h1 class="texto-alto">Repositorio con descargas &nbsp;&nbsp; ((ヾ(≧皿≦；)ノ＿))</h1>
+        <br />
 
-<h1 class="texto-alto">Repositorio con descargas &nbsp;&nbsp; ((ヾ(≧皿≦；)ノ＿))</h1><br>
-
-
-    <link rel="javascript" href="publicacionesrepos.js">
-    <script>
-        class archivo{
-            constructor(nombre, version, autor, descripcion,plataforma, link){
-                this.nombre = nombre;
-                this.version = version;
-                this.autor = autor;
-                this.descripcion = descripcion;
-                this.plataforma = plataforma;
-                this.link = link;
-                //informacion resumida:
-                this.informacion = `<p class=informacion-text>${this.nombre}, versión ${this.version} <br>Powered by: ${this.autor}<br>
-                Descripción: ${this.descripcion}. <br><br>Link de descarga: <a href="${this.link}">Descargar para ${plataforma}</a></p>`
+        <link rel="javascript" href="publicacionesrepos.js" />
+        <script>
+            class archivo {
+                constructor(nombre, version, autor, descripcion, plataforma, link) {
+                    this.nombre = nombre;
+                    this.version = version;
+                    this.autor = autor;
+                    this.descripcion = descripcion;
+                    this.plataforma = plataforma;
+                    this.link = link;
+                    //informacion resumida:
+                    this.informacion = `<p class=informacion-text>${this.nombre}, versión ${this.version} <br>Powered by: ${this.autor}<br>
+                Descripción: ${this.descripcion}. <br><br>Link de descarga: <a href="${this.link}">Descargar para ${plataforma}</a></p>`;
+                }
+                mostrar() {
+                    document.write('<h2 class="nombre-grande">' + this.nombre + "</h2>" + this.informacion + "<br>");
+                }
             }
-            mostrar(){
-                document.write('<h2 class="nombre-grande">' + this.nombre + '</h2>' + this.informacion + '<br>');
-            }
-        }
-        
-        //ARCHIVOS  
-            const calculadora = new archivo("Calculadora graciosa",
-            "1.0",
-            "xenon.software, apk dev && cpsoftware, roblox.exe remote quit",
-            'calculadora funcional con secretos, hacer logaritmos ("log") provocará que roblox.exe se cierre si tienes el script de python necesario',
-            "android",
-            "https://github.com/xenonxss/repositorioapps/raw/main/app-debug.apk");
-            
-            const jagger = new archivo("Jagger script",
-            "1.0",
-            "xenon.software",
-            "Bomba jagger con temporizador para trollear facilmente",
-            "windows",
-            "https://github.com/xenonxss/repositorioapps/raw/main/jaggerbomba.exe");
 
-            
-        //ARCHIVOS
-      
-    </script>
+            //ARCHIVOS
+            const calculadora = new archivo(
+                "Calculadora graciosa",
+                "1.0",
+                "xenon.software, apk dev && cpsoftware, roblox.exe remote quit",
+                'calculadora funcional con secretos, hacer logaritmos ("log") provocará que roblox.exe se cierre si tienes el script de python necesario',
+                "android",
+                "https://github.com/xenonxss/repositorioapps/raw/main/app-debug.apk"
+            );
 
+            const jagger = new archivo("Jagger script", "1.0", "xenon.software", "Bomba jagger con temporizador para trollear facilmente", "windows", "https://github.com/xenonxss/repositorioapps/raw/main/jaggerbomba.exe");
 
-<script>
-    calculadora.mostrar();
-    jagger.mostrar();
-    radar.mostrar();
-</script>
+            //ARCHIVOS
+        </script>
 
+        <script>
+            calculadora.mostrar();
+            jagger.mostrar();
+            radar.mostrar();
+        </script>
 
-<div class="nohaymas">
-
-    <h1>
-
-        Por el momento, no hay más. 
-
-    </h1>
-    <img class="giffinal" src="https://cdn103.picsart.com/206263500001202.gif?to=min&r=640">
-
-
-</div>
-</body>
+        <div class="nohaymas">
+            <h1>
+                Por el momento, no hay más.
+            </h1>
+            <img class="giffinal" src="https://cdn103.picsart.com/206263500001202.gif?to=min&r=640" />
+        </div>
+    </body>
 </html>
