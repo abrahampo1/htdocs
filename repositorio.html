@@ -8,24 +8,30 @@
     <link rel="stylesheet" href="/cabecera.css">
     <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/4/41/Osu_new_logo.png" />
     <link rel="stylesheet" href="/stylerepos.css">
- 
 </head>
 
 <body>
+      
+<!--CABECERA-->
+<h1 class="titulo">Xenon web site</h1>
+
+<div class="apartados">
+    <a href="index.html">Who I am?</a>
+    <a href="/repositorio.html">Repositorio</a>
+    <a href="#">Aplicaciones web</a>
+   
     
-       
-    <h1 class="titulo">Xenon web site</h1>
-    <a class="repositorioref" href="/repositorio.html">Repositorio</a>
-    <a class="whoiamref" href="index.html">Who I am?</a>
+</div>
+    <br><br>
+<hr class="barraseparadora" size="1px" color="black" />
+
+<!--CABECERA-->
+
+    
 	
 
- 
-		
+<h1 class="texto-alto">Repositorio con descargas &nbsp;&nbsp; ((ヾ(≧皿≦；)ノ＿))</h1><br>
 
-
-<br>
-<h1 style="margin-left: 15px;">Repositorio de aplicaciones &nbsp;&nbsp; ((ヾ(≧皿≦；)ノ＿))</h1>
-<br>
 
     <link rel="javascript" href="publicacionesrepos.js">
     <script>
@@ -42,7 +48,7 @@
                 Descripción: ${this.descripcion}. <br><br>Link de descarga: <a href="${this.link}">Descargar para ${plataforma}</a></p>`
             }
             mostrar(){
-                document.write('<h2>' + this.nombre + '</h2>' + this.informacion + '<br>');
+                document.write('<h2 class="nombre-grande">' + this.nombre + '</h2>' + this.informacion + '<br>');
             }
         }
         
@@ -73,5 +79,17 @@
     radar.mostrar();
 </script>
 
+
+<div class="nohaymas">
+
+    <h1>
+
+        Por el momento, no hay más. 
+
+    </h1>
+    <img class="giffinal" src="https://cdn103.picsart.com/206263500001202.gif?to=min&r=640">
+
+
+</div>
 </body>
 </html>

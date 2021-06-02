@@ -1,31 +1,36 @@
 
-
 .who{
-background: linear-gradient(to left bottom, rgb(255, 173, 42), rgb(110, 132, 195));
+    background: linear-gradient(to left bottom, rgb(255, 173, 42), #6e84c3);;
+    
+
 }
 .perfil img{
     margin-top: 10%;
     border-radius: 80%;
 
-
   } 
 .whoiam-text{
+
     font-family: “Bodoni MT”, Didot, “Didot LT STD”, “Hoefler Text”, Garamond, “Times New Roman”, serif;;
     text-align: center;
     text-shadow: 0.1em 0.1em 0.2em black;
-    color: rgb(0, 0, 0);
-    font-size: 330%
 }
-.who:hover{
-    filter: blur(0px);
-    transition: 6s;
-}
+
+    .whoiam-text:hover{
+
+        margin-right: 1%;
+        transition-duration: 1s;
+       
+    }
+    .whoiam-text{
+        margin-right: 0%;
+        transition-duration: 1s;
+    }
+
 
 .video{
-    align-content: center;
-
+    margin-left: 27%
 }
-
 
 
 
@@ -45,7 +50,7 @@ background: linear-gradient(to left bottom, rgb(255, 173, 42), rgb(110, 132, 195
                     }
                         .youtube img:hover{
                             height: 115px;
-                            transition: 1s;
+                            transition: 0.7s;
                         }
                     .instagram img{
                         height: 110px;
@@ -53,7 +58,7 @@ background: linear-gradient(to left bottom, rgb(255, 173, 42), rgb(110, 132, 195
                     }
                         .instagram img:hover{
                             height: 135px;
-                            transition: 1s;
+                            transition: 0.7s;
                         }
 
                     .osu img{
@@ -62,7 +67,7 @@ background: linear-gradient(to left bottom, rgb(255, 173, 42), rgb(110, 132, 195
                     }
                         .osu img:hover{
                             height: 135px;
-                            transition: 1s;
+                            transition: 0.7s;
                         }
                     .steam img{
                         height: 110px;
@@ -70,7 +75,7 @@ background: linear-gradient(to left bottom, rgb(255, 173, 42), rgb(110, 132, 195
                     }
                         .steam img:hover{
                             height: 135px;
-                            transition: 1s;
+                            transition: 0.7s;
                         }
    
 
