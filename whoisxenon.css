@@ -3,6 +3,9 @@
     background: linear-gradient(to left bottom, rgb(255, 173, 42), #6e84c3);;
 
 }
+img{
+    border-radius: 15px;
+}
 .perfil img{
     margin-top: 10%;
     border-radius: 80%;
