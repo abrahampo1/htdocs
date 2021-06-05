@@ -61,11 +61,11 @@ nav ul li {
                         }
 
                     .osu img{
-                        height: 110px;
+                        height: 115px;
                         transition: 1s;
                     }
                         .osu img:hover{
-                            height: 135px;
+                            height: 145px;
                             transition: 0.7s;
                         }
                     .steam img{
